@@ -25,7 +25,6 @@ def preprocess_personality_data(
         Path ke file CSV dataset mentah.
     output_path : str, optional
         Path penyimpanan file hasil preprocessing.
-
     """
 
     # =========================
