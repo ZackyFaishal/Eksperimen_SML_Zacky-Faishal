@@ -1,0 +1,1 @@
+python preprocessing/automate_zacky.py dataset_personality.csv --output personality_preprocessing_dataset.csv
