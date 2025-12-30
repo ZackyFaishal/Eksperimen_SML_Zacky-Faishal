@@ -19,7 +19,7 @@ def preprocess_personality_data(
     5. Encoding data kategorikal
     6. Binning fitur numerik tertentu
 
-    Parameters
+    Parameter
     ----------
     input_path : str
         Path ke file CSV dataset mentah.
