@@ -26,10 +26,6 @@ def preprocess_personality_data(
     output_path : str, optional
         Path penyimpanan file hasil preprocessing.
 
-    Returns
-    -------
-    pd.DataFrame
-        DataFrame hasil preprocessing.
     """
 
     # =========================
