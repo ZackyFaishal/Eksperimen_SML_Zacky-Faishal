@@ -26,5 +26,5 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate.py personality_dataset.csv \
+          python preprocessing/automate_zacky.py personality_dataset.csv \
             --output preprocessing/personality_preprocessing_dataset.csv
