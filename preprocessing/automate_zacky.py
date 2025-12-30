@@ -101,8 +101,9 @@ def preprocess_personality_data(
     df_clean['Time_spent_Alone_Bin'] = pd.cut(
         df_clean['Time_spent_Alone'],
         bins=3,
-        labels=['Rendah', 'Sedang', 'Tinggi']
+        labels=False
     )
+
 
     # Encode hasil binning agar numerik
     bin_encoder = LabelEncoder()
